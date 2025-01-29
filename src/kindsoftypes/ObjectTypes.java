@@ -120,11 +120,11 @@ public class ObjectTypes {
 
         // Got it? Now, study this code, guess what it will print, and then run it.
 
-        // if (mascotTwice == happyBaby) {
-        //     System.out.println("The strings are the same.");
-        // } else {
-        //     System.out.println("The strings are not the same.");
-        // }
+         if (mascotTwice == happyBaby) {
+             System.out.println("The strings are the same.");
+         } else {
+             System.out.println("The strings are not the same.");
+         }
 
         // Why?
         //
@@ -136,11 +136,11 @@ public class ObjectTypes {
         // checks where two strings are the same string. If you want to check whether two strings
         // have identical characters, you use the method name `equals`. Uncomment and try this:
 
-        // if (mascotTwice.equals(happyBaby)) {
-        //     System.out.println("The strings are equal.");
-        // } else {
-        //     System.out.println("The strings are not equal.");
-        // }
+         if (mascotTwice.equals(happyBaby)) {
+             System.out.println("The strings are equal.");
+         } else {
+             System.out.println("The strings are not equal.");
+         }
 
         // In most languages, == means what .equals() means in Java. This has caused innumerable
         // programmers immense confusion over the last ~3 decades. Many people (including the

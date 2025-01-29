@@ -329,19 +329,19 @@ public class PrimitiveTypes {
 
         // What will this print? Guess, then try it.
         //
-        // System.out.println((1 == 2) == (3 == 4));
+         System.out.println((1 == 2) == (3 == 4));
         //
         // Why? Try drawing the AST.
 
         // What will this print? Guess, then try it.
         // 
-        // int n = 2;
-        // System.out.println(1 < n < 3);
+        int n = 2;
+         System.out.println(1 < n < 3);
         // 
         // Why? Again, try drawing the AST, and now think about the types.
 
         // What do you think this will print? Guess, then try it.
         // 
-        // System.out.println('a' + 1);
+         System.out.println('a' + 1);
     }
 }
